@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout android:id="@+id/LinearLayout1"
+        android:layout_width="fill_parent"
+   	 	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:layout_alignParentTop="true">
+        
+    
+    <TextView
+        android:id="@+id/movementDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="@string/movement_description"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    
+    <TableLayout
+        android:id="@+id/infoTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:padding="5dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/labelX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="@string/label_x"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/valueX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="@string/no_data_available"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:typeface="monospace"   />
+
+            <TextView
+                android:id="@+id/labelPitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="@string/label_pitch"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/valuePitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_data_available"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:typeface="monospace"   />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/labelY"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="@string/label_y"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/valueY"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="@string/no_data_available"
+                android:textAppearance="?android:attr/textAppearanceSmall" 
+                android:typeface="monospace"  />
+
+            <TextView
+                android:id="@+id/labelYaw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="@string/label_yaw"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/valueYaw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_data_available"
+                android:textAppearance="?android:attr/textAppearanceSmall" 
+                android:typeface="monospace"  />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/labelZ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="@string/label_z"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/valueZ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="@string/no_data_available"
+                android:textAppearance="?android:attr/textAppearanceSmall" 
+                android:typeface="monospace"  />
+
+            <TextView
+                android:id="@+id/labelRoll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="@string/label_roll"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/valueRoll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_data_available"
+                android:textAppearance="?android:attr/textAppearanceSmall" 
+                android:typeface="monospace"  />
+        </TableRow>
+    </TableLayout>
+    </LinearLayout>
+
+    <com.google.android.maps.MapView
+        android:id="@+id/my_map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/LinearLayout1"
+        android:apiKey="@string/maps_pallando" />
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bespoke.sphero.walkabout.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="12" />
+    
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".SpheroTestAppActivity"
+            android:label="@string/app_name" 
+            android:theme="@android:style/Theme.Holo.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".HelpActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.Light" />
+        
+        <activity android:name="orbotix.robot.app.StartupActivity"
+                  android:launchMode="singleTop"
+                  android:theme="@android:style/Theme.Translucent"
+                  />
+        
+        <uses-library android:name="com.google.android.maps" />
+    </application>
+    
+    
+
+</manifest>

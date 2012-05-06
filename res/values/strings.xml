@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Walkabout</string>
+    <string name="app_name">Walkabout</string>
+    <string name="sleep_button">Sleep</string>
+    <string name="reconnect_button">Reconnect</string>
+    <string name="reset_button">Reset Location</string>
+    <string name="findme_button">Find Me</string>
+    <string name="help_button">Help</string>
+    <string name="no_data_available">No data available.</string>
+    <string name="movement_description">No movement detected.</string>
+    <string name="label_x">x: </string>
+    <string name="label_y">y: </string>
+    <string name="label_z">z: </string>
+    <string name="label_pitch">pitch</string>
+    <string name="label_yaw">yaw</string>
+    <string name="label_roll">roll</string>
+	<string name="help_description">How to use Walkabout</string>
+	<string name="maps_pallando">03SGRl8KTWjvu2qu-RMJK7jJBq5EUYlyQWA566A</string>
+	<string name="maps_release">03SGRl8KTWjuclnk9DvIvA6vJeLAOkEWTyukYGw</string>
+	<string name="version">Version</string>
+
+</resources>

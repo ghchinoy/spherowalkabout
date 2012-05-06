@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    
+    <item android:id="@+id/menu_reset"
+      	android:icon="@drawable/ic_menu_anchor"
+        android:title="@string/reset_button"
+        android:showAsAction="ifRoom|withText" /> 
+    <item android:id="@+id/menu_findme"
+        android:icon="@drawable/ic_menu_globe"
+        android:title="@string/findme_button"
+        android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/menu_reconnect"
+        android:icon="@drawable/ic_menu_magnet"
+        android:title="@string/reconnect_button"
+        android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/menu_sleep"
+        android:enabled="false"
+        android:icon="@drawable/ic_menu_exit"
+        android:title="@string/sleep_button"
+        android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/menu_help"
+        android:title="@string/help_button"
+        android:icon="@drawable/ic_menu_info_details"
+		android:showAsAction="ifRoom|withText" 
+		android:enabled="false" />
+</menu>
