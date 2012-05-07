@@ -153,6 +153,6 @@
         android:layout_height="fill_parent"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/LinearLayout1"
-        android:apiKey="@string/maps_pallando" />
+        android:apiKey="@string/maps_debug" />
 
 </RelativeLayout>

@@ -17,7 +17,7 @@
     <string name="label_yaw">yaw</string>
     <string name="label_roll">roll</string>
 	<string name="help_description">How to use Walkabout</string>
-	<string name="maps_pallando">03SGRl8KTWjvu2qu-RMJK7jJBq5EUYlyQWA566A</string>
+	<string name="maps_debug">03SGRl8KTWjvu2qu-RMJK7jJBq5EUYlyQWA566A</string>
 	<string name="maps_release">03SGRl8KTWjuclnk9DvIvA6vJeLAOkEWTyukYGw</string>
 	<string name="version">Version</string>
 
